@@ -11,7 +11,7 @@ class CarrascoApp extends StatelessWidget {
       title: 'David Carrasco',
       theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.black,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       darkTheme: ThemeData(
