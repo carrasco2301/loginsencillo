@@ -80,7 +80,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             Column(
               children: <Widget>[
                 Image.asset('assets/foto.PNG'),
-                SizedBox(height: 10.0),
+                SizedBox(height: 20.0),
               ],
             ),
             //if (!acceso)
