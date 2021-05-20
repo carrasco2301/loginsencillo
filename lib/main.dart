@@ -140,7 +140,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       child: Text('Cerrar sesion'),
                       onPressed: () {
                         setState(() {
-                          isLogin = false;
+                          acceso = false;
                         });
                       },
                     ) //fin de  oton sobresaliente
