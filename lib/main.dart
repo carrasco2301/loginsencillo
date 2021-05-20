@@ -93,6 +93,14 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       labelText: 'Usuario',
                     ),
                   ),
+                  SizedBox(height: 12.0),
+                  TextField(
+                    decoration: InputDecoration(
+                      filled: true,
+                      labelText: 'Contraseña',
+                    ),
+                    obscureText: true,
+                  ),
                 ], //fin del widget []
               ) //fin columna
             //if verdadero
