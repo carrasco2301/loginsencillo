@@ -72,7 +72,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
         ], //fin accion widget []
         title: Text('sistema Carrasco'),
       ), //fin de appBar
-      body: SideArea(
+      body: SafeArea(
         child: ListView(
           padding: EdgeInsets.symmetric(horizontal: 24.0),
           children: <Widget>[
