@@ -113,7 +113,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                               acceso = false;
                             });
                           },
-                        ),
+                        ), //fin de FlatButton
                         RaisedButton(
                           child: Text(
                             'Siguiente',
@@ -123,15 +123,30 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                               acceso = true;
                             });
                           },
-                        ),
+                        ), //fin de raisedButton
                       ], //fin de children widget []
                     ), //fin del child Row
                   ) //fin de padding
                 ], //fin del widget []
               ) //fin columna
             //if verdadero
-
-            // if falso
+            else
+              Center(
+                child: Column(
+                  children: <Widget>[
+                    Text('Igresaste al sistema'),
+                    RaisedButton(
+                      elevation: 20.0,
+                      child: Text('Cerrar sesion'),
+                      onPressed: () {
+                        setState(() {
+                          isLogin = false;
+                        });
+                      },
+                    ) //fin de  oton sobresaliente
+                  ], //fin de niño widget
+                ),
+              ) // if falso
           ], //fin de widget
         ), //fin de listView
       ), //fin de area segura
